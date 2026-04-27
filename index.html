@@ -364,6 +364,63 @@
     white-space: nowrap;
     margin-top: 2px;
   }
+  /* =========================
+   Copyright Footer
+========================= */
+.copyright{
+  margin-top: 70px;
+  text-align:center;
+  padding:30px 20px;
+  border-top:1px solid rgba(255,255,255,0.08);
+  position:relative;
+}
+
+.copyright::before{
+  content:'';
+  display:block;
+  width:180px;
+  height:2px;
+  margin:0 auto 18px;
+  background:linear-gradient(
+    90deg,
+    transparent,
+    #00f5ff,
+    #a855f7,
+    #f97316,
+    transparent
+  );
+  border-radius:4px;
+  box-shadow:
+    0 0 12px rgba(0,245,255,.35),
+    0 0 18px rgba(168,85,247,.2);
+}
+
+.copyright h3{
+  margin:0;
+  font-size:18px;
+  font-weight:700;
+  background:linear-gradient(
+    135deg,
+    #00f5ff,
+    #a855f7,
+    #f97316
+  );
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+
+.copyright p{
+  margin-top:10px;
+  font-family:'JetBrains Mono', monospace;
+  font-size:12px;
+  color:#94a3b8;
+  letter-spacing:1.5px;
+}
+
+.copyright span{
+  color:#22c55e;
+}
   .ch-after {
     font-size: 11px;
     color: #22c55e;
@@ -533,6 +590,15 @@
     </div>
     <div class="tagline">Stream → Stage → Queue → Monitor → Repeat</div>
   </div>
+
+  <footer class="copyright">
+  <h3>✦ Jewel Rana</h3>
+  <p>
+    Architected & Crafted by
+    <span>Jewel Rana</span> · Sr. Software Engineer<br>
+    © 2026 All Rights Reserved
+  </p>
+</footer>
 
 </div>
 
