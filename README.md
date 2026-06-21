@@ -7,6 +7,10 @@
 ## 🧩 Architecture Overview
 
 ```
+🧩 Architecture Flow
+https://lnkd.in/gi9tzZNX
+
+
 Client
   │
   ▼
