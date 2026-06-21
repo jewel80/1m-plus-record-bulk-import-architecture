@@ -7,8 +7,7 @@
 ## 🧩 Architecture Overview
 
 ```
-🧩 Architecture Flow
-https://lnkd.in/gi9tzZNX
+
 
 
 Client
@@ -133,6 +132,14 @@ The pipeline scales horizontally at the worker layer. Adding more Kafka consumer
 ├── staging-db/             # Schema & migrations for Staging DB
 └── README.md
 ```
+
+---
+
+---
+
+## 🔗 Architecture Diagram
+
+https://lnkd.in/gi9tzZNX
 
 ---
 
